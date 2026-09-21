@@ -1,0 +1,1014 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Neeraj Kumar — Full Stack Developer, BCA student and AI/ML enthusiast."
+    />
+    <meta name="theme-color" content="#070b1a" />
+    <title>Neeraj Kumar | Developer Portfolio</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              ink: "#070b1a",
+              panel: "#10182b",
+              panel2: "#131d32",
+              primary: "#3b82f6",
+              violet: "#7c3aed",
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Bootstrap 5 CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ================= NAVBAR ================= -->
+    <header class="site-header">
+      <nav class="container nav-wrap">
+        <a class="brand" href="#home" aria-label="Neeraj home">
+          <span class="brand-icon"><i class="bi bi-code-slash"></i></span>
+          <span>Neeraj<span class="brand-dot">.</span></span>
+        </a>
+
+        <button
+          class="mobile-menu-btn"
+          id="mobileMenuBtn"
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
+          <i class="bi bi-list"></i>
+        </button>
+
+        <div class="nav-links" id="navLinks">
+          <a class="nav-link active" href="#home">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#gallery">Gallery</a>
+          <a class="nav-link" href="#experience">Experience</a>
+          <a class="nav-link" href="#education">Education</a>
+          <a class="nav-link" href="#certifications">Certifications</a>
+          <a class="nav-link" href="#achievements">Achievements</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </div>
+
+        <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">
+          <i class="bi bi-sun-fill" id="themeIcon"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ================= HERO ================= -->
+      <section id="home" class="hero section-pad">
+        <div class="container">
+          <div class="hero-grid">
+            <div class="hero-copy reveal">
+              <div class="availability">
+                <span></span> Available for Opportunities
+              </div>
+              <p class="eyebrow">HELLO, I'M</p>
+              <h1>Neeraj<br /><span>Kumar</span></h1>
+              <h2>
+                Full Stack Developer <b>•</b> BCA Student <b>•</b> AI/ML
+                Enthusiast
+              </h2>
+              <p class="hero-text">
+                I am a BCA student and aspiring Full Stack Developer with a
+                strong interest in AI/ML. I build practical applications using
+                modern frontend, backend and database technologies.
+              </p>
+
+              <div class="hero-actions">
+                <a href="#projects" class="btn-primary-custom"
+                  >View My Projects <i class="bi bi-arrow-right"></i
+                ></a>
+                <a href="#contact" class="btn-secondary-custom"
+                  >Contact Me <i class="bi bi-envelope"></i
+                ></a>
+              </div>
+
+              <div class="social-row">
+                <!-- Replace these placeholder URLs with your real profiles -->
+                <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                <a href="#" aria-label="LinkedIn"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+                <a href="#contact" aria-label="Email"
+                  ><i class="bi bi-envelope-fill"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="hero-visual reveal delay-1">
+              <div class="code-window">
+                <div class="window-bar">
+                  <div class="window-dots">
+                    <span></span><span></span><span></span>
+                  </div>
+                  <span>developer.js</span>
+                </div>
+                <div class="code-content">
+                  <div>
+                    <span class="code-key">const</span>
+                    <span class="code-var">developer</span> = {
+                  </div>
+                  <div class="indent">
+                    <span class="code-key">name:</span>
+                    <span class="code-string">"Neeraj Kumar"</span>,
+                  </div>
+                  <div class="indent">
+                    <span class="code-key">role:</span>
+                    <span class="code-string">"Full Stack Developer"</span>,
+                  </div>
+                  <div class="indent">
+                    <span class="code-key">education:</span>
+                    <span class="code-string">"BCA"</span>,
+                  </div>
+                  <div class="indent">
+                    <span class="code-key">skills:</span> [
+                  </div>
+                  <div class="indent2">
+                    <span class="code-string">"Java"</span>,
+                  </div>
+                  <div class="indent2">
+                    <span class="code-string">"Python"</span>,
+                  </div>
+                  <div class="indent2">
+                    <span class="code-string">"React.js"</span>,
+                  </div>
+                  <div class="indent2">
+                    <span class="code-string">"HTML"</span>,
+                  </div>
+                  <div class="indent2">
+                    <span class="code-string">"Node.js"</span>
+                  </div>
+                  <div class="indent">],</div>
+                  <div class="indent">
+                    <span class="code-key">focus:</span>
+                    <span class="code-string">"Full Stack + AI/ML"</span>
+                  </div>
+                  <div>};</div>
+                </div>
+              </div>
+
+              <div class="float-card float-one">
+                <span class="float-icon"><i class="bi bi-code-slash"></i></span>
+                <div>
+                  <strong>Web Development</strong
+                  ><small>React • Node.js • Express</small>
+                </div>
+              </div>
+              <div class="float-card float-two">
+                <span class="float-icon"
+                  ><i class="bi bi-bar-chart-fill"></i
+                ></span>
+                <div>
+                  <strong>Data Analysis</strong
+                  ><small>AI Content • Python</small>
+                </div>
+              </div>
+              <div class="float-card float-three">
+                <span class="float-icon"
+                  ><i class="bi bi-database-fill"></i
+                ></span>
+                <div>
+                  <strong>Database</strong><small>MySQL • MongoDB</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= ABOUT ================= -->
+      <section id="about" class="section-pad section-alt">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span>ABOUT ME</span>
+            <h2>Get to know <em>me better</em></h2>
+            <p>
+              A quick introduction about my journey, interests and the
+              technologies I enjoy working with.
+            </p>
+          </div>
+
+          <div class="about-grid">
+            <div class="profile-card reveal">
+              <div class="profile-top">
+                <span class="online-dot"></span> profile.dev
+              </div>
+              <div class="profile-avatar"><i class="bi bi-laptop"></i></div>
+              <h3>Neeraj Kumar</h3>
+              <p>Full Stack Developer & AI/ML Enthusiast</p>
+              <div class="profile-tags">
+                <span>React.js</span><span>Node.js</span><span>AI/ML</span>
+              </div>
+              <div class="profile-meta">
+                <span><i class="bi bi-mortarboard"></i> BCA</span
+                ><span><i class="bi bi-code-square"></i> Developer</span>
+              </div>
+            </div>
+
+            <div class="about-copy reveal delay-1">
+              <span class="mini-label">WHO I AM</span>
+              <h3>
+                I'm a <strong>Full Stack Developer</strong><br />with a strong
+                interest in AI/ML.
+              </h3>
+              <p>
+                I am pursuing my Bachelor of Computer Applications and enjoy
+                turning ideas into practical, full-stack applications.
+              </p>
+              <p>
+                My experience includes React.js, Node.js, Express.js, MongoDB,
+                MySQL, Java and Python. I am especially interested in building
+                AI/ML-powered tools that solve real-world problems.
+              </p>
+              <div class="about-pills">
+                <span
+                  ><i class="bi bi-check-circle-fill"></i> Problem Solving</span
+                >
+                <span><i class="bi bi-check-circle-fill"></i> Development</span>
+                <span
+                  ><i class="bi bi-check-circle-fill"></i> Data Analysis</span
+                >
+                <span
+                  ><i class="bi bi-check-circle-fill"></i> Learning
+                  Mindset</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="stat-strip reveal">
+            <div><strong>2+</strong><span>Internships & Training</span></div>
+            <div><strong>5+</strong><span>Projects Built</span></div>
+            <div><strong>2024–2027</strong><span>BCA Journey</span></div>
+            <div><strong>∞</strong><span>Curiosity to Learn</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= SKILLS ================= -->
+      <section id="skills" class="section-pad">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span>MY SKILLS</span>
+            <h2>Technologies I <em>work with</em></h2>
+            <p>
+              A collection of programming languages, development tools and
+              technologies I am learning and using.
+            </p>
+          </div>
+
+          <div class="skill-grid">
+            <article class="skill-card reveal">
+              <div class="skill-title">
+                <span class="skill-icon"><i class="bi bi-code-slash"></i></span>
+                <h3>Programming Languages</h3>
+              </div>
+              <p>
+                Core languages I use for application development and problem
+                solving.
+              </p>
+              <div class="progress-row">
+                <span>Java</span><b>80%</b>
+                <div><i style="width: 80%"></i></div>
+              </div>
+              <div class="progress-row">
+                <span>Python</span><b>78%</b>
+                <div><i style="width: 78%"></i></div>
+              </div>
+              <div class="progress-row">
+                <span>JavaScript</span><b>75%</b>
+                <div><i style="width: 75%"></i></div>
+              </div>
+            </article>
+
+            <article class="skill-card reveal delay-1">
+              <div class="skill-title">
+                <span class="skill-icon"
+                  ><i class="bi bi-window-stack"></i
+                ></span>
+                <h3>Web Development</h3>
+              </div>
+              <p>
+                Frontend technologies for responsive and interactive web
+                applications.
+              </p>
+              <div class="progress-row">
+                <span>HTML / CSS</span><b>88%</b>
+                <div><i style="width: 88%"></i></div>
+              </div>
+              <div class="progress-row">
+                <span>React.js</span><b>78%</b>
+                <div><i style="width: 78%"></i></div>
+              </div>
+              <div class="progress-row">
+                <span>Bootstrap / Tailwind</span><b>75%</b>
+                <div><i style="width: 75%"></i></div>
+              </div>
+            </article>
+
+            <article class="skill-card reveal">
+              <div class="skill-title">
+                <span class="skill-icon"
+                  ><i class="bi bi-bar-chart-fill"></i
+                ></span>
+                <h3>Backend & APIs</h3>
+              </div>
+              <p>
+                Server-side technologies I use to create APIs and full-stack
+                features.
+              </p>
+              <div class="progress-row">
+                <span>Node.js</span><b>75%</b>
+                <div><i style="width: 75%"></i></div>
+              </div>
+              <div class="progress-row">
+                <span>Express.js</span><b>75%</b>
+                <div><i style="width: 75%"></i></div>
+              </div>
+              <div class="progress-row">
+                <span>REST APIs</span><b>72%</b>
+                <div><i style="width: 72%"></i></div>
+              </div>
+            </article>
+
+            <article class="skill-card reveal delay-1">
+              <div class="skill-title">
+                <span class="skill-icon"
+                  ><i class="bi bi-database-fill"></i
+                ></span>
+                <h3>Database & Tools</h3>
+              </div>
+              <p>
+                Databases and tools I use while building and managing projects.
+              </p>
+              <div class="progress-row">
+                <span>MySQL</span><b>78%</b>
+                <div><i style="width: 78%"></i></div>
+              </div>
+              <div class="progress-row">
+                <span>MongoDB</span><b>75%</b>
+                <div><i style="width: 75%"></i></div>
+              </div>
+              <div class="progress-row">
+                <span>OOP / Data Structures</span><b>70%</b>
+                <div><i style="width: 70%"></i></div>
+              </div>
+            </article>
+          </div>
+
+          <div class="learning-banner reveal">
+            <span class="skill-icon"><i class="bi bi-lightbulb-fill"></i></span>
+            <div>
+              <strong>Always learning and improving</strong
+              ><small
+                >Currently focused on full-stack development and AI/ML-powered
+                applications.</small
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= PROJECTS ================= -->
+      <section id="projects" class="section-pad section-alt">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span>MY PROJECTS</span>
+            <h2>Things I've <em>built</em></h2>
+            <p>
+              A selection of projects that demonstrate my programming, web
+              development and problem-solving skills.
+            </p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card reveal">
+              <div class="project-top">
+                <span class="project-badge">HTML • CSS • JS</span
+                ><span class="project-icon"
+                  ><i class="bi bi-code-slash"></i
+                ></span>
+              </div>
+              <small>01 / WEB PROJECT</small>
+              <h3>Portfolio Website</h3>
+              <p>
+                A responsive developer portfolio with modern UI, animations,
+                sections and interactive navigation.
+              </p>
+              <div class="tag-row">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <a href="#home"
+                >Live Project <i class="bi bi-arrow-up-right"></i
+              ></a>
+            </article>
+
+            <article class="project-card reveal delay-1">
+              <div class="project-top">
+                <span class="project-badge">JavaScript</span
+                ><span class="project-icon"
+                  ><i class="bi bi-grid-3x3-gap-fill"></i
+                ></span>
+              </div>
+              <small>02 / GAME PROJECT</small>
+              <h3>Tic-Tac-Toe</h3>
+              <p>
+                A browser-based Tic-Tac-Toe game with turn handling, win
+                detection and reset functionality.
+              </p>
+              <div class="tag-row">
+                <span>HTML</span><span>CSS</span><span>JS</span>
+              </div>
+              <a href="#contact"
+                >View Details <i class="bi bi-arrow-up-right"></i
+              ></a>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-top">
+                <span class="project-badge">MERN • AI</span
+                ><span class="project-icon"
+                  ><i class="bi bi-calculator-fill"></i
+                ></span>
+              </div>
+              <small>03 / AI AUTOMATION</small>
+              <h3>AI Social Media Automation</h3>
+              <p>
+                An AI-powered system for generating and scheduling social media
+                content using a MERN stack with Python-based AI generation.
+              </p>
+              <div class="tag-row">
+                <span>React.js</span><span>Node.js</span><span>Python</span>
+              </div>
+              <a href="#contact"
+                >View Details <i class="bi bi-arrow-up-right"></i
+              ></a>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-top">
+                <span class="project-badge">MERN</span
+                ><span class="project-icon"
+                  ><i class="bi bi-person-workspace"></i
+                ></span>
+              </div>
+              <small>04 / FULL STACK</small>
+              <h3>Find My Tutor</h3>
+              <p>
+                A MERN-based tutor-finding platform with authentication, tutor
+                search, profiles and admin management.
+              </p>
+              <div class="tag-row">
+                <span>React</span><span>Node.js</span><span>MongoDB</span>
+              </div>
+              <a href="#contact"
+                >View Details <i class="bi bi-arrow-up-right"></i
+              ></a>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-top">
+                <span class="project-badge">MERN • AI</span
+                ><span class="project-icon"><i class="bi bi-stars"></i></span>
+              </div>
+              <small>05 / CURRENT PROJECT</small>
+              <h3>Student Management System</h3>
+              <p>
+                A Java-based management system using object-oriented
+                programming, collections and CRUD operations.
+              </p>
+              <div class="tag-row">
+                <span>Java</span><span>OOP</span><span>CRUD</span>
+              </div>
+              <a href="#contact"
+                >View Details <i class="bi bi-arrow-up-right"></i
+              ></a>
+            </article>
+
+            <article class="project-card reveal delay-1">
+              <div class="project-top">
+                <span class="project-badge">WEB • JS</span
+                ><span class="project-icon"
+                  ><i class="bi bi-calendar3"></i
+                ></span>
+              </div>
+              <small>06 / FRONTEND PROJECTS</small>
+              <h3>Interactive Web Applications</h3>
+              <p>
+                Built responsive and interactive applications including a
+                portfolio website, Tic-Tac-Toe and calculator.
+              </p>
+              <div class="tag-row">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <a href="#contact"
+                >View Details <i class="bi bi-arrow-up-right"></i
+              ></a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= GALLERY ================= -->
+      <section id="gallery" class="section-pad gallery-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span>MY GALLERY</span>
+            <h2>Building, learning &amp; <em>creating</em></h2>
+            <p>
+              A visual look at the tools, ideas and technology behind my
+              development journey.
+            </p>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="gallery-item gallery-feature reveal">
+              <img
+                src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
+                alt="Developer working on code at a laptop"
+                loading="lazy"
+              />
+              <figcaption>
+                <strong>Building with code</strong
+                ><span>Full Stack Development</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-item reveal delay-1">
+              <img
+                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                alt="Code displayed on a computer screen"
+                loading="lazy"
+              />
+              <figcaption>
+                <strong>Turning ideas into products</strong
+                ><span>React • Node.js • MongoDB</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-item reveal">
+              <img
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                alt="Data analytics dashboard on a screen"
+                loading="lazy"
+              />
+              <figcaption>
+                <strong>Exploring data</strong><span>Python • AI/ML</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-item reveal delay-1">
+              <img
+                src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                alt="Team collaborating around a laptop"
+                loading="lazy"
+              />
+              <figcaption>
+                <strong>Learning together</strong
+                ><span>Internships • Collaboration</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= EXPERIENCE ================= -->
+      <section id="experience" class="section-pad">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span>MY JOURNEY</span>
+            <h2>Professional <em>experience</em></h2>
+            <p>
+              My practical learning journey through internships, development
+              work and hands-on projects.
+            </p>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <div class="timeline-marker">
+                <i class="bi bi-briefcase-fill"></i>
+              </div>
+              <div class="timeline-card">
+                <div class="timeline-head">
+                  <div>
+                    <span>INTERNSHIP</span>
+                    <h3>MERN Stack Developer Intern</h3>
+                    <p>Precursor Info Solutions Pvt. Ltd., Lucknow</p>
+                  </div>
+                  <b>Jul 2026 – Sep 2026</b>
+                </div>
+                <p>
+                  Developed full-stack applications using MongoDB, Express.js,
+                  React.js and Node.js; created REST APIs, CRUD operations and
+                  responsive React.js user interfaces.
+                </p>
+                <div class="tag-row">
+                  <span>React</span><span>Node.js</span><span>Express</span
+                  ><span>MongoDB</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal delay-1">
+              <div class="timeline-marker">
+                <i class="bi bi-code-square"></i>
+              </div>
+              <div class="timeline-card">
+                <div class="timeline-head">
+                  <div>
+                    <span>INTERNSHIP / PROJECT WORK</span>
+                    <h3>Java Development Intern</h3>
+                    <p>Shri Balaji Infotech, Lucknow</p>
+                  </div>
+                  <b>Jun 2025 – Jul 2025</b>
+                </div>
+                <p>
+                  Completed four-week Java training and developed a Student
+                  Management System using OOP, collections and CRUD operations.
+                </p>
+                <div class="tag-row">
+                  <span>Java</span><span>OOP</span><span>Problem Solving</span
+                  ><span>MySQL</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="learning-banner reveal">
+            <span class="skill-icon"
+              ><i class="bi bi-rocket-takeoff-fill"></i
+            ></span>
+            <div>
+              <strong>Learning through practical experience</strong
+              ><small
+                >Every project is an opportunity to turn concepts into working
+                solutions.</small
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= EDUCATION ================= -->
+      <section id="education" class="section-pad section-alt">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span>EDUCATION</span>
+            <h2>My academic <em>journey</em></h2>
+            <p>
+              My educational path and the foundation I am building for a career
+              in software development.
+            </p>
+          </div>
+
+          <div class="education-list">
+            <article class="education-card reveal">
+              <div class="edu-icon"><i class="bi bi-mortarboard-fill"></i></div>
+              <div class="edu-content">
+                <span>2024 – 2027</span>
+                <h3>Bachelor of Computer Applications (BCA)</h3>
+                <p>
+                  Goel Institute of Higher Studies Mahavidyalaya (GIHSM),
+                  Lucknow
+                </p>
+                <small>University of Lucknow • SGPA: 8.5/10.0</small>
+              </div>
+              <b class="edu-badge">Current</b>
+            </article>
+
+            <article class="education-card reveal">
+              <div class="edu-icon"><i class="bi bi-book-fill"></i></div>
+              <div class="edu-content">
+                <span>2024</span>
+                <h3>Class 12th</h3>
+                <p>UP Board, Basti, Uttar Pradesh</p>
+                <small>Percentage: 76.8%</small>
+              </div>
+              <b class="edu-badge">Completed</b>
+            </article>
+
+            <article class="education-card reveal">
+              <div class="edu-icon">
+                <i class="bi bi-journal-bookmark-fill"></i>
+              </div>
+              <div class="edu-content">
+                <span>2022</span>
+                <h3>Class 10th</h3>
+                <p>UP Board, Basti, Uttar Pradesh</p>
+                <small>Percentage: 82.83%</small>
+              </div>
+              <b class="edu-badge">Completed</b>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CERTIFICATIONS ================= -->
+      <section id="certifications" class="section-pad">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span>CERTIFICATIONS & TRAINING</span>
+            <h2>Learning <em>beyond academics</em></h2>
+            <p>
+              Courses and certifications that support my practical skills and
+              continuous learning.
+            </p>
+          </div>
+
+          <div class="cert-grid">
+            <article class="cert-card reveal">
+              <div class="cert-icon"><i class="bi bi-award-fill"></i></div>
+              <div>
+                <span>TECHNOLOGY</span>
+                <h3>Python for Data Science</h3>
+                <p>
+                  IBM certification in Python, data science concepts and
+                  practical analysis.
+                </p>
+                <div class="tag-row">
+                  <span>Python</span><span>IBM</span><span>2025</span>
+                </div>
+              </div>
+              <b>2025</b>
+            </article>
+            <article class="cert-card reveal delay-1">
+              <div class="cert-icon"><i class="bi bi-stars"></i></div>
+              <div>
+                <span>ARTIFICIAL INTELLIGENCE</span>
+                <h3>Java Development Training</h3>
+                <p>
+                  Four-week Java development training completed at Shri Balaji
+                  Infotech, Lucknow.
+                </p>
+                <div class="tag-row">
+                  <span>Java</span><span>OOP</span><span>CRUD</span>
+                </div>
+              </div>
+              <b>2025</b>
+            </article>
+            <article class="cert-card reveal">
+              <div class="cert-icon"><i class="bi bi-bar-chart-fill"></i></div>
+              <div>
+                <span>FULL STACK</span>
+                <h3>MERN Stack Development Internship</h3>
+                <p>
+                  Full-stack development internship at Precursor Info Solutions
+                  Pvt. Ltd. with practical MERN application work.
+                </p>
+                <div class="tag-row">
+                  <span>MongoDB</span><span>Express</span><span>React</span
+                  ><span>Node</span>
+                </div>
+              </div>
+              <b>2026</b>
+            </article>
+            <article class="cert-card reveal delay-1">
+              <div class="cert-icon"><i class="bi bi-window"></i></div>
+              <div>
+                <span>WEB</span>
+                <h3>AI/ML Interest</h3>
+                <p>
+                  Building toward AI/ML-powered applications with Python and
+                  full-stack technologies.
+                </p>
+                <div class="tag-row">
+                  <span>Python</span><span>AI/ML</span><span>MERN</span>
+                </div>
+              </div>
+              <b>Focus</b>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= ACHIEVEMENTS ================= -->
+      <section id="achievements" class="section-pad section-alt">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span>ACHIEVEMENTS</span>
+            <h2>Milestones I'm <em>proud of</em></h2>
+            <p>
+              Important learning milestones, project experiences and goals from
+              my development journey.
+            </p>
+          </div>
+
+          <div class="achievement-grid">
+            <article class="achievement-card reveal">
+              <span class="achievement-icon"
+                ><i class="bi bi-trophy-fill"></i
+              ></span>
+              <h3>Full Stack Experience</h3>
+              <p>
+                Completed MERN Stack and Java Development internships with
+                practical application development experience.
+              </p>
+            </article>
+            <article class="achievement-card reveal delay-1">
+              <span class="achievement-icon"
+                ><i class="bi bi-code-square"></i
+              ></span>
+              <h3>5+ Projects Built</h3>
+              <p>
+                Developed AI automation, tutor-finding, student management and
+                interactive web applications.
+              </p>
+            </article>
+            <article class="achievement-card reveal">
+              <span class="achievement-icon"><i class="bi bi-robot"></i></span>
+              <h3>AI/ML Learning</h3>
+              <p>
+                Strong interest in AI/ML and experience combining Python with
+                full-stack technologies for practical solutions.
+              </p>
+            </article>
+            <article class="achievement-card reveal delay-1">
+              <span class="achievement-icon"
+                ><i class="bi bi-rocket-takeoff-fill"></i
+              ></span>
+              <h3>Academic Achievement</h3>
+              <p>
+                Pursuing BCA with an SGPA of 8.5/10.0 at Goel Institute of
+                Higher Studies Mahavidyalaya.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CONTACT ================= -->
+      <section id="contact" class="section-pad contact-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span>GET IN TOUCH</span>
+            <h2>Contact <em>Me</em></h2>
+            <p>
+              Have a project, opportunity or question? Feel free to get in touch
+              with me.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-info reveal">
+              <h3>Let's Connect</h3>
+              <p>
+                I'm open to learning opportunities, internships, collaborations
+                and developer projects.
+              </p>
+
+              <a class="contact-item" href="mailto:neerajkumar860135@gmail.com"
+                ><span><i class="bi bi-envelope-fill"></i></span>
+                <div>
+                  <small>Email</small
+                  ><strong>neerajkumar860135@gmail.com</strong>
+                </div></a
+              >
+              <a class="contact-item" href="tel:+918601351042"
+                ><span><i class="bi bi-telephone-fill"></i></span>
+                <div>
+                  <small>Phone</small><strong>+91 8601351042</strong>
+                </div></a
+              >
+              <div class="contact-item">
+                <span><i class="bi bi-geo-alt-fill"></i></span>
+                <div>
+                  <small>Location</small><strong>Basti, Uttar Pradesh</strong>
+                </div>
+              </div>
+
+              <h4>Find Me On</h4>
+              <div class="contact-socials">
+                <a href="#"><i class="bi bi-github"></i></a
+                ><a href="#"><i class="bi bi-linkedin"></i></a
+                ><a href="#"><i class="bi bi-instagram"></i></a>
+              </div>
+            </div>
+
+            <form class="contact-form reveal delay-1" id="contactForm">
+              <h3>Send Me a Message</h3>
+              <label
+                >Your Name<input
+                  id="name"
+                  type="text"
+                  placeholder="Enter your name"
+                  required
+              /></label>
+              <label
+                >Your Email<input
+                  id="email"
+                  type="email"
+                  placeholder="you@example.com"
+                  required
+              /></label>
+              <label
+                >Subject<input
+                  id="subject"
+                  type="text"
+                  placeholder="What is this about?"
+                  required
+              /></label>
+              <label
+                >Message<textarea
+                  id="message"
+                  rows="5"
+                  placeholder="Write your message..."
+                  required
+                ></textarea>
+              </label>
+              <button type="submit" class="btn-primary-custom w-100">
+                Send Message <i class="bi bi-send-fill"></i>
+              </button>
+              <p class="form-status" id="formStatus"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand" href="#home"
+            ><span class="brand-icon"><i class="bi bi-code-slash"></i></span
+            ><span>Neeraj<span class="brand-dot">.</span></span></a
+          >
+          <p>
+            Full Stack Developer and BCA student with a strong interest in
+            building AI/ML-powered applications.
+          </p>
+          <div class="footer-socials">
+            <a href="#"><i class="bi bi-github"></i></a
+            ><a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <a href="#about">About</a><a href="#skills">Skills</a
+          ><a href="#projects">Projects</a><a href="#experience">Experience</a
+          ><a href="#contact">Contact</a>
+        </div>
+        <div>
+          <h4>Resume</h4>
+          <p>Keep your resume updated with your latest skills and projects.</p>
+          <a class="resume-btn" href="./assets/Neeraj Kumar Resume 3rd year.pdf"
+            ><i class="bi bi-download"></i> Request Resume</a
+          >
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="year"></span> Neeraj Kumar. All rights reserved.</span
+        ><span>Built with HTML • CSS • JavaScript • Tailwind • Bootstrap</span>
+      </div>
+    </footer>
+
+    <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">
+      <i class="bi bi-arrow-up"></i>
+    </button>
+    <a
+      class="whatsapp-button"
+      href="https://wa.me/918601351042"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Chat with Neeraj on WhatsApp"
+      title="Chat on WhatsApp"
+    >
+      <i class="bi bi-whatsapp"></i>
+    </a>
+    <div id="toast" class="toast-message"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
